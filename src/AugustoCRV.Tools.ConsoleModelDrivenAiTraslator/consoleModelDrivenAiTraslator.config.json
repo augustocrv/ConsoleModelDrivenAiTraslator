@@ -1,0 +1,119 @@
+﻿{
+  "translationContext": "",
+  "fieldTranslation": {
+    "logicalNameTranslations": [
+      {
+        "lcid": 1040,
+        "value": {
+          "createdon": "Data creazione",
+          "createdby": "Creato da",
+          "modifiedon": "Data modifica",
+          "modifiedby": "Modificato da",
+          "ownerid": "Proprietario",
+          "statuscode": "Motivazione stato",
+          "statecode": "Stato"
+        }
+      }
+    ]
+  },
+  "viewTranslation": {
+    "viewTypeRuleMap": {
+      "Advanced Search view": "advancedFind",
+      "Associated view": "associated",
+      "Quick Find Search view": "quickFind",
+      "Lookup view": "lookup"
+    },
+    "sourcePatterns": [],
+    "templates": [
+      {
+        "lcid": 1040,
+        "value": {
+          "lookup": {
+            "Default": "Ricerca {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Ricerca rapida {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Ricerca avanzata {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Correlati {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "{entityPlural} attivi",
+            "Gender": {
+              "feminine": "{entityPlural} attive"
+            }
+          },
+          "inactive": {
+            "Default": "{entityPlural} inattivi",
+            "Gender": {
+              "feminine": "{entityPlural} inattive"
+            }
+          },
+          "myActive": {
+            "Default": "I miei {entityPlural} attivi",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} attive"
+            }
+          },
+          "myInactive": {
+            "Default": "I miei {entityPlural} inattivi",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} inattive"
+            }
+          },
+          "open": {
+            "Default": "{entityPlural} aperti",
+            "Gender": {
+              "feminine": "{entityPlural} aperte"
+            }
+          },
+          "closed": {
+            "Default": "{entityPlural} chiusi",
+            "Gender": {
+              "feminine": "{entityPlural} chiuse"
+            }
+          },
+          "myOpen": {
+            "Default": "I miei {entityPlural} aperti",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} aperte"
+            }
+          },
+          "myClosed": {
+            "Default": "I miei {entityPlural} chiusi",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} chiuse"
+            }
+          }
+        }
+      }
+    ],
+    "exactTranslations": [
+      {
+        "lcid": 1040,
+        "value": {
+          "No Records Found": "Nessun record trovato"
+        }
+      }
+    ],
+    "entityGenderByLanguage": [
+      {
+        "lcid": 1040,
+        "value": {
+          "account": "feminine",
+          "contact": "masculine",
+          "incident": "masculine",
+          "lead": "masculine",
+          "opportunity": "feminine"
+        }
+      }
+    ]
+  }
+}

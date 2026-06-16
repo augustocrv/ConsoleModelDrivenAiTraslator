@@ -1,0 +1,104 @@
+I now have the extension inventory from your machine; next I’m extracting the exact prerequisites and config steps from this repo so you get a copy-paste setup for another PC.
+
+Read [](file:///c%3A/PACXTools/README.md#261-261), lines 261 to 509
+
+Read [](file:///c%3A/PACXTools/scripts/Populate-DefaultConsoleModelDrivenAiTraslatorConfig.ps1#1-1), lines 1 to 260
+
+Read [](file:///c%3A/PACXTools/src/AugustoCRV.Tools.ConsoleModelDrivenAiTraslator/ConsoleModelDrivenAiTraslator.config.json)
+
+Read [](file:///c%3A/PACXTools/ConsoleModelDrivenAiTraslator.config.json#1-1), lines 1 to 260
+
+I’m doing one more pass to make this practical: I’ll capture extension IDs with versions and verify exact runtime/tool versions from this machine so your second PC setup is precise.
+
+Ran terminal command: & "$env:LOCALAPPDATA\Programs\Microsoft VS Code\bin\code.cmd" --list-extensions --show-versions
+
+Ran terminal command: dotnet --info
+
+Ran terminal command: dotnet --list-sdks
+
+Ran terminal command: dotnet --list-runtimes
+
+I’ve got everything needed and I’m quickly validating one security detail: whether copied connection secrets work across machines or must be recreated on the new PC.
+
+Searched for regex `class ApiKeyProtectorService|ProtectedData|Aes|Rfc2898DeriveBytes|DataProtectionScope|encrypt|decrypt` (`**/src/AugustoCRV.Tools.ConsoleModelDrivenAiTraslator/Services/Infrastructure/**`), 20 results
+
+Read [](file:///c%3A/PACXTools/src/AugustoCRV.Tools.ConsoleModelDrivenAiTraslator/Services/Infrastructure/ApiKeyProtectorService.cs)
+
+I’m finalizing the answer now with a ready-to-use migration checklist and install commands; I’ll include an optional shortcut to clone your extensions on the new PC.
+
+Read memory [](file:///c%3A/Users/augusto.carvalho/AppData/Roaming/Code/User/workspaceStorage/fe0c4c73ee5e2c9eba72df13d9ee85a1/GitHub.copilot-chat/memory-tool/memories/repo/translation-pipeline-notes.md)
+
+Installed VS Code extensions on your machine (current active versions)
+
+1. github.copilot-chat@0.45.1  
+2. github.github-vscode-theme@6.3.5  
+3. github.vscode-pull-request-github@0.140.0  
+4. mechatroner.rainbow-csv@3.24.1  
+5. ms-dotnettools.csdevkit@3.10.14  
+6. ms-dotnettools.csharp@2.130.5  
+7. ms-dotnettools.vscode-dotnet-runtime@3.0.0  
+8. ms-vsliveshare.vsliveshare@1.1.122  
+9. ozzafar.debugmcpextension@1.1.1  
+10. pkief.material-icon-theme@5.34.0  
+11. repreng.csv@1.3.0
+
+Install the same extensions on another PC (PowerShell)
+
+$exts = @(
+  "github.copilot-chat",
+  "github.github-vscode-theme",
+  "github.vscode-pull-request-github",
+  "mechatroner.rainbow-csv",
+  "ms-dotnettools.csdevkit",
+  "ms-dotnettools.csharp",
+  "ms-dotnettools.vscode-dotnet-runtime",
+  "ms-vsliveshare.vsliveshare",
+  "ozzafar.debugmcpextension",
+  "pkief.material-icon-theme",
+  "repreng.csv"
+)
+foreach ($e in $exts) { code --install-extension $e --force }
+
+Complete setup to run this project perfectly on another PC
+
+1. Install required software
+- VS Code
+- Git
+- .NET SDK 10.0.x (recommended: 10.0.103, same as your machine)
+- Optional: .NET SDK 9.0.x if you want parity with your current machine (you have 9.0.313 too)
+
+2. Clone and build
+- git clone <your-repo-url>
+- cd PACXTools
+- dotnet build AugustoCRV.Tools.ConsoleModelDrivenAiTraslator.slnx -nologo -v:minimal
+
+3. Run the app
+- AugustoCRV.Tools.ConsoleModelDrivenAiTraslator.exe --help
+- Or interactive mode (no args): run the same exe without parameters
+
+4. Configure connections (required before gen/push)
+- ai-translator conn ai create --name my-ai --type AzureOpenAi --deployment-endpoint https://<resource>.openai.azure.com/openai/deployments/<deployment> --api-key <secret>
+- ai-translator conn dataverse create --name my-dv --url https://org.crm.dynamics.com --username user@contoso.com --password <secret>
+- ai-translator conn ai select
+- ai-translator conn dataverse select
+
+5. Config files to bring/check in the repo
+- ConsoleModelDrivenAiTraslator.config.json
+- ConsoleModelDrivenAiTraslator.config.json
+- Populate-DefaultConsoleModelDrivenAiTraslatorConfig.ps1
+
+6. Optional but useful tooling
+- Xml2Doc CLI for API docs generation:
+  dotnet tool install -g Xml2Doc.Cli --add-source https://api.nuget.org/v3/index.json --ignore-failed-sources
+
+7. Validate everything
+- dotnet --list-sdks
+- dotnet --info
+- dotnet build AugustoCRV.Tools.ConsoleModelDrivenAiTraslator.slnx
+- ai-translator --help
+
+Important migration note
+- The app stores selected connections and credentials under %APPDATA%\AugustoCRV\Tools\ConsoleModelDrivenAiTraslator.
+- You can migrate that folder, but it contains sensitive connection data. Safer approach is to recreate connections on the new PC with the commands above.
+
+If you want, I can generate a single setup script (one-click PowerShell) that installs extensions, verifies .NET, builds the project, and runs first-time checks.

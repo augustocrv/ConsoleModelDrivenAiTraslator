@@ -1,0 +1,8 @@
+{
+  "Xml": "src/AugustoCRV.Tools.ConsoleModelDrivenAiTraslator/bin/Debug/net10.0/win-x64/AugustoCRV.Tools.ConsoleModelDrivenAiTraslator.xml",
+  "Out": "docs/API-Translator.md",
+  "Single": true,
+  "FileNames": "clean",
+  "RootNamespace": "AugustoCRV.Tools.ConsoleModelDrivenAiTraslator",
+  "CodeLanguage": "csharp"
+}

@@ -1,0 +1,2315 @@
+﻿{
+  "translationContext": "",
+  "fieldTranslation": {
+    "logicalNameTranslations": [
+      {
+        "lcid": 1040,
+        "value": {
+          "createdon": "Data creazione",
+          "createdby": "Creato da",
+          "modifiedon": "Data modifica",
+          "modifiedby": "Modificato da",
+          "ownerid": "Proprietario",
+          "statuscode": "Motivazione stato",
+          "statecode": "Stato"
+        }
+      }
+    ]
+  },
+  "viewTranslation": {
+    "viewTypeRuleMap": {
+      "Advanced Search view": "advancedFind",
+      "Associated view": "associated",
+      "Quick Find Search view": "quickFind",
+      "Lookup view": "lookup"
+    },
+    "sourcePatterns": [],
+    "templates": [
+      {
+        "lcid": 1025,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1026,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1029,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1030,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1031,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1032,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1035,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1036,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1037,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1038,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1040,
+        "value": {
+          "lookup": {
+            "Default": "Ricerca {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Ricerca rapida {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Ricerca avanzata {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Correlati {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "{entityPlural} attivi",
+            "Gender": {
+              "feminine": "{entityPlural} attive"
+            }
+          },
+          "inactive": {
+            "Default": "{entityPlural} inattivi",
+            "Gender": {
+              "feminine": "{entityPlural} inattive"
+            }
+          },
+          "myActive": {
+            "Default": "I miei {entityPlural} attivi",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} attive"
+            }
+          },
+          "myInactive": {
+            "Default": "I miei {entityPlural} inattivi",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} inattive"
+            }
+          },
+          "open": {
+            "Default": "{entityPlural} aperti",
+            "Gender": {
+              "feminine": "{entityPlural} aperte"
+            }
+          },
+          "closed": {
+            "Default": "{entityPlural} chiusi",
+            "Gender": {
+              "feminine": "{entityPlural} chiuse"
+            }
+          },
+          "myOpen": {
+            "Default": "I miei {entityPlural} aperti",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} aperte"
+            }
+          },
+          "myClosed": {
+            "Default": "I miei {entityPlural} chiusi",
+            "Gender": {
+              "feminine": "Le mie {entityPlural} chiuse"
+            }
+          }
+        }
+      },
+      {
+        "lcid": 1041,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1042,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1043,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1044,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1045,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1046,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1048,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1049,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1051,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1053,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1054,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1055,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1057,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1058,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1060,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1061,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1062,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1063,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1066,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1081,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1086,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 1106,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 2057,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 3082,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 3084,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      },
+      {
+        "lcid": 4105,
+        "value": {
+          "lookup": {
+            "Default": "Lookup {entityPlural}",
+            "Gender": {}
+          },
+          "quickFind": {
+            "Default": "Quick Find {entityPlural}",
+            "Gender": {}
+          },
+          "advancedFind": {
+            "Default": "Advanced Find {entityPlural}",
+            "Gender": {}
+          },
+          "associated": {
+            "Default": "Associated {entityPlural}",
+            "Gender": {}
+          },
+          "active": {
+            "Default": "Active {entityPlural}",
+            "Gender": {}
+          },
+          "inactive": {
+            "Default": "Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "myActive": {
+            "Default": "My Active {entityPlural}",
+            "Gender": {}
+          },
+          "myInactive": {
+            "Default": "My Inactive {entityPlural}",
+            "Gender": {}
+          },
+          "open": {
+            "Default": "Open {entityPlural}",
+            "Gender": {}
+          },
+          "closed": {
+            "Default": "Closed {entityPlural}",
+            "Gender": {}
+          },
+          "myOpen": {
+            "Default": "My Open {entityPlural}",
+            "Gender": {}
+          },
+          "myClosed": {
+            "Default": "My Closed {entityPlural}",
+            "Gender": {}
+          }
+        }
+      }
+    ],
+    "exactTranslations": [
+      {
+        "lcid": 1025,
+        "value": {}
+      },
+      {
+        "lcid": 1026,
+        "value": {}
+      },
+      {
+        "lcid": 1029,
+        "value": {}
+      },
+      {
+        "lcid": 1030,
+        "value": {}
+      },
+      {
+        "lcid": 1031,
+        "value": {}
+      },
+      {
+        "lcid": 1032,
+        "value": {}
+      },
+      {
+        "lcid": 1035,
+        "value": {}
+      },
+      {
+        "lcid": 1036,
+        "value": {}
+      },
+      {
+        "lcid": 1037,
+        "value": {}
+      },
+      {
+        "lcid": 1038,
+        "value": {}
+      },
+      {
+        "lcid": 1040,
+        "value": {
+          "No Records Found": "Nessun record trovato"
+        }
+      },
+      {
+        "lcid": 1041,
+        "value": {}
+      },
+      {
+        "lcid": 1042,
+        "value": {}
+      },
+      {
+        "lcid": 1043,
+        "value": {}
+      },
+      {
+        "lcid": 1044,
+        "value": {}
+      },
+      {
+        "lcid": 1045,
+        "value": {}
+      },
+      {
+        "lcid": 1046,
+        "value": {}
+      },
+      {
+        "lcid": 1048,
+        "value": {}
+      },
+      {
+        "lcid": 1049,
+        "value": {}
+      },
+      {
+        "lcid": 1051,
+        "value": {}
+      },
+      {
+        "lcid": 1053,
+        "value": {}
+      },
+      {
+        "lcid": 1054,
+        "value": {}
+      },
+      {
+        "lcid": 1055,
+        "value": {}
+      },
+      {
+        "lcid": 1057,
+        "value": {}
+      },
+      {
+        "lcid": 1058,
+        "value": {}
+      },
+      {
+        "lcid": 1060,
+        "value": {}
+      },
+      {
+        "lcid": 1061,
+        "value": {}
+      },
+      {
+        "lcid": 1062,
+        "value": {}
+      },
+      {
+        "lcid": 1063,
+        "value": {}
+      },
+      {
+        "lcid": 1066,
+        "value": {}
+      },
+      {
+        "lcid": 1081,
+        "value": {}
+      },
+      {
+        "lcid": 1086,
+        "value": {}
+      },
+      {
+        "lcid": 1106,
+        "value": {}
+      },
+      {
+        "lcid": 2057,
+        "value": {}
+      },
+      {
+        "lcid": 3082,
+        "value": {}
+      },
+      {
+        "lcid": 3084,
+        "value": {}
+      },
+      {
+        "lcid": 4105,
+        "value": {}
+      }
+    ],
+    "entityGenderByLanguage": [
+      {
+        "lcid": 1025,
+        "value": {}
+      },
+      {
+        "lcid": 1026,
+        "value": {}
+      },
+      {
+        "lcid": 1029,
+        "value": {}
+      },
+      {
+        "lcid": 1030,
+        "value": {}
+      },
+      {
+        "lcid": 1031,
+        "value": {}
+      },
+      {
+        "lcid": 1032,
+        "value": {}
+      },
+      {
+        "lcid": 1035,
+        "value": {}
+      },
+      {
+        "lcid": 1036,
+        "value": {}
+      },
+      {
+        "lcid": 1037,
+        "value": {}
+      },
+      {
+        "lcid": 1038,
+        "value": {}
+      },
+      {
+        "lcid": 1040,
+        "value": {
+          "account": "feminine",
+          "contact": "masculine",
+          "incident": "masculine",
+          "lead": "masculine",
+          "opportunity": "feminine"
+        }
+      },
+      {
+        "lcid": 1041,
+        "value": {}
+      },
+      {
+        "lcid": 1042,
+        "value": {}
+      },
+      {
+        "lcid": 1043,
+        "value": {}
+      },
+      {
+        "lcid": 1044,
+        "value": {}
+      },
+      {
+        "lcid": 1045,
+        "value": {}
+      },
+      {
+        "lcid": 1046,
+        "value": {}
+      },
+      {
+        "lcid": 1048,
+        "value": {}
+      },
+      {
+        "lcid": 1049,
+        "value": {}
+      },
+      {
+        "lcid": 1051,
+        "value": {}
+      },
+      {
+        "lcid": 1053,
+        "value": {}
+      },
+      {
+        "lcid": 1054,
+        "value": {}
+      },
+      {
+        "lcid": 1055,
+        "value": {}
+      },
+      {
+        "lcid": 1057,
+        "value": {}
+      },
+      {
+        "lcid": 1058,
+        "value": {}
+      },
+      {
+        "lcid": 1060,
+        "value": {}
+      },
+      {
+        "lcid": 1061,
+        "value": {}
+      },
+      {
+        "lcid": 1062,
+        "value": {}
+      },
+      {
+        "lcid": 1063,
+        "value": {}
+      },
+      {
+        "lcid": 1066,
+        "value": {}
+      },
+      {
+        "lcid": 1081,
+        "value": {}
+      },
+      {
+        "lcid": 1086,
+        "value": {}
+      },
+      {
+        "lcid": 1106,
+        "value": {}
+      },
+      {
+        "lcid": 2057,
+        "value": {}
+      },
+      {
+        "lcid": 3082,
+        "value": {}
+      },
+      {
+        "lcid": 3084,
+        "value": {}
+      },
+      {
+        "lcid": 4105,
+        "value": {}
+      }
+    ]
+  }
+}

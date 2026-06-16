@@ -1,0 +1,27 @@
+﻿namespace AugustoCRV.Tools.ConsoleModelDrivenAiTraslator.Models;
+
+/// <summary>Class description.</summary>
+
+public class ExportSettings
+{
+    public bool ExportAttributes { get; set; }
+    public bool ExportBooleans { get; set; }
+    public bool ExportCharts { get; internal set; }
+    public bool ExportCustomizedRelationships { get; set; }
+    public bool ExportDashboards { get; set; }
+    public bool ExportDescriptions { get; internal set; }
+    public bool ExportEntities { get; set; }
+    public bool ExportFormFields { get; set; }
+    public bool ExportForms { get; set; }
+    public bool ExportFormSections { get; set; }
+    public bool ExportFormTabs { get; set; }
+    public bool ExportGlobalOptionSet { get; set; }
+    public bool ExportNames { get; internal set; }
+    public bool ExportOptionSet { get; set; }
+    public bool ExportSiteMap { get; set; }
+    public bool ExportViews { get; set; }
+    public bool ExportRibbon { get; set; }
+    public bool EnableManaged { get; set; }
+    public string FilePath { get; set; } = string.Empty;
+    public Guid SolutionId { get; set; }
+}
